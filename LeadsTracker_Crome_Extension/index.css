@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px; /* gives a min width to our app*/
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px; 
+}
+
+button {
+    background: #5f9341;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #5f9341;
+    padding: 10px 20px;  /*1st value for top and bottom and 2nd for left right */
+}
+
+#delete-btn {
+    background: white;
+    color: #5f9341;
+}
+
+ul {
+    list-style: none; /*to remove the bullets*/
+    padding-left: 0;
+    margin-top: 20px;   
+}
+
+li {
+    margin-top: 5px;  
+}
+
+li a {
+    color: #5f9341;
+}
